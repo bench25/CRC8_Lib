@@ -2,7 +2,7 @@
  * @file            \Code\Algorithm\CRC8_Calculator.h
  * @author          Howard
  * @date            2023-01-02 11:29:31
- * @lastEditTime    2023-02-09 10:57:42
+ * @lastEditTime    2023-02-09 11:27:16
  * @brief           CRC8计算单元 默认小端格式
 *********************************************************************************/
 
@@ -22,7 +22,7 @@
 // 静态库定义 **************************************************
 #define	CRC8_BIG_ENDIAN			(0)
 #define	CRC8_SMALL_ENDIAN		(1)
-#define	CRC8_ENDIAN_TYPE		CRC8_SMALL_ENDIAN
+#define	CRC8_ENDIAN_TYPE		CRC8_BIG_ENDIAN
 
 /* 固定多项式因子 */
 #define	POLY_NORMIAL_MSB		(0x59)	// (x^6 + x^4 + x^3 + 1)
