@@ -2,7 +2,7 @@
  * @file            \Code\Algorithm\CRC8_Calculator.h
  * @author          Howard
  * @date            2023-01-02 11:29:31
- * @lastEditTime    2023-02-09 10:17:34
+ * @lastEditTime    2023-02-09 10:57:42
  * @brief           CRC8计算单元 默认小端格式
 *********************************************************************************/
 
@@ -42,7 +42,7 @@
 //-- FUNCTION
 //----------------------------------------------
 
-unsigned char CRC8_Calc_Normal(unsigned char Polynormial, const unsigned char *ptr, unsigned char len);
+unsigned char CRC8_Calc_Normal(unsigned char Polynorimial_LSB, const unsigned char *ptr, unsigned char len);
 unsigned char CRC8_Calc_Table(const unsigned char *ptr, unsigned char len);
 
 //----------------------------------------------
