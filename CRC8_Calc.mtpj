@@ -78,6 +78,7 @@
       <RelativePath>r_cg_macrodriver.h</RelativePath>
       <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
       <ParentItem>d009b33c-f5a0-48e8-8769-805e8a2d4c2f</ParentItem>
+      <Property>1c550947-56b2-496a-90d6-c803b2919a0c</Property>
     </Instance>
     <Instance Guid="3947920a-7f2f-4c0d-909a-8472a3874b29">
       <Name>r_cg_userdefine.h</Name>
@@ -111,6 +112,9 @@
       <MemoCount>0</MemoCount>
     </Instance>
     <Instance Guid="f1f8053c-fd19-4ff3-8fea-f394321eccff">
+      <MemoCount>0</MemoCount>
+    </Instance>
+    <Instance Guid="1c550947-56b2-496a-90d6-c803b2919a0c">
       <MemoCount>0</MemoCount>
     </Instance>
   </Class>
@@ -190,10 +194,12 @@
       <IntermediateOutputFolder-DefaultValue>%BuildModeName%</IntermediateOutputFolder-DefaultValue>
       <OutputFolderNameForHex-DefaultValue>%BuildModeName%</OutputFolderNameForHex-DefaultValue>
       <RomizeFileOutputFolder-DefaultValue>%BuildModeName%</RomizeFileOutputFolder-DefaultValue>
+      <SystemIncludePathsForAssemble-DefaultValue />
       <MacroDefinitionForAssembler-DefaultValue />
       <OutputFileNameForHex-DefaultValue>%ProjectName%.hex</OutputFileNameForHex-DefaultValue>
       <OutputFolderNameForLinker-DefaultValue>%BuildModeName%</OutputFolderNameForLinker-DefaultValue>
       <RomizeFileName-DefaultValue>romp.lmf</RomizeFileName-DefaultValue>
+      <SystemIncludePaths-DefaultValue />
       <TemporaryFolder-DefaultValue />
       <HexadecimalFileFormat-DefaultValue>IntelExtended</HexadecimalFileFormat-DefaultValue>
       <MacroDefinitionForCompiler-DefaultValue />
@@ -268,6 +274,10 @@
       <BranchInstructionOptimization-DefaultValue>True</BranchInstructionOptimization-DefaultValue>
       <ExpansionOfLinePreprocessDirective-DefaultValue>True</ExpansionOfLinePreprocessDirective-DefaultValue>
       <ExternalVariablesToShortAddressing-DefaultValue>NotAllocate</ExternalVariablesToShortAddressing-DefaultValue>
+      <StandardLibraryFileNames-DefaultValue>cl0ram.lib
+cl0rm.lib
+cl0rmf.lib
+</StandardLibraryFileNames-DefaultValue>
       <DestinationAreaOfRomData-DefaultValue>No</DestinationAreaOfRomData-DefaultValue>
       <DisablementOfIntExtensionForFunction-DefaultValue>False</DisablementOfIntExtensionForFunction-DefaultValue>
       <FixedCodeToLibrary-DefaultValue>NotReplace</FixedCodeToLibrary-DefaultValue>
@@ -282,7 +292,7 @@
       <NumberOfLinesPerPage-DefaultValue>0</NumberOfLinesPerPage-DefaultValue>
       <TabWidth-DefaultValue>8</TabWidth-DefaultValue>
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8585257628748926296</TimeTagModified--0>
+      <TimeTagModified--0>-8585257574467465643</TimeTagModified--0>
       <AdditionalIncludePaths-0>.
 Algorithm
 </AdditionalIncludePaths-0>
@@ -303,7 +313,7 @@ Algorithm
       <StructureMembersPacking-0>False</StructureMembersPacking-0>
       <SystemIncludePaths-0 />
       <WarningLevel-0>NormalOutput</WarningLevel-0>
-      <ChineseCharactersCodeOnSourceFiles-0>ShiftJis</ChineseCharactersCodeOnSourceFiles-0>
+      <ChineseCharactersCodeOnSourceFiles-0>Unspecified</ChineseCharactersCodeOnSourceFiles-0>
       <ExpansionOfDefinePreprocessDirective-0>False</ExpansionOfDefinePreprocessDirective-0>
       <MacroDefinitions-0 />
       <OtherAdditionalOptions-0 />
